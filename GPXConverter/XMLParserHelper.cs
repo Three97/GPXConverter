@@ -1,119 +1,109 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Xml;
-using System.Xml.Serialization;
-using System.IO;
-using System.Text;
-//using Dynastream;
 
 public static class XMLParserHelper
 {
     public static XmlNamespaceManager Manager;
+
+    // TODO: Using these static fields is not thread-safe...
     private static decimal dTryParse;
     private static int iTryParse;
     private static DateTime dtTryParse;
-    private static XmlNode WorkNode;
-    private static XmlAttribute WorkAttr;
+    private static XmlNode workNode;
+    private static XmlAttribute workAttr;
 
-    public static string SelectSingleTextString(XmlNode Node, string Selector, string Default = null)
+    public static string SelectSingleTextString(XmlNode node, string selector, string defaultValue = null)
     {
-        WorkNode = Node.SelectSingleNode(Selector, Manager);
-        if (WorkNode != null)
-        {
-            return WorkNode.InnerText;
-        }
-        else
-        {
-            return Default;
-        }
-    }
-    public static string SelectSingleAttributeString(XmlNode Node, string Name, string Default = null)
-    {
-        WorkAttr = Node.Attributes[Name];
-        if (WorkAttr != null)
-        {
-            return WorkAttr.Value;
-        }
-        else
-        {
-            return Default;
-        }
+        workNode = node.SelectSingleNode(selector, Manager);
+        return workNode?.InnerText ?? defaultValue;
     }
 
-    public static int? SelectSingleTextInt(XmlNode Node, string Selector, int? Default = null)
+    public static string SelectSingleAttributeString(XmlNode node, string name, string defaultValue = null)
     {
-        WorkNode = Node.SelectSingleNode(Selector, Manager);
-        if (WorkNode != null && int.TryParse(WorkNode.InnerText, out iTryParse))
+        if (node?.Attributes == null)
+        {
+            return defaultValue;
+        }
+
+        workAttr = node.Attributes[name];
+        return workAttr != null ? workAttr.Value : defaultValue;
+    }
+
+    public static int? SelectSingleTextInt(XmlNode node, string selector, int? defaultValue = null)
+    {
+        workNode = node.SelectSingleNode(selector, Manager);
+        if (workNode != null && int.TryParse(workNode.InnerText, out iTryParse))
         {
             return iTryParse;
         }
-        else
-        {
-            return Default;
-        }
+
+        return defaultValue;
     }
-    public static int? SelectSingleAttributeInt(XmlNode Node, string Name, int? Default = null)
+    public static int? SelectSingleAttributeInt(XmlNode node, string name, int? defaultValue = null)
     {
-        WorkAttr = Node.Attributes[Name];
-        if (WorkAttr != null && int.TryParse(WorkAttr.Value, out iTryParse))
+        if (node?.Attributes == null)
+        {
+            return defaultValue;
+        }
+
+        workAttr = node.Attributes[name];
+        if (workAttr != null && int.TryParse(workAttr.Value, out iTryParse))
         {
             return iTryParse;
         }
-        else
-        {
-            return Default;
-        }
+
+        return defaultValue;
     }
 
-    public static decimal? SelectSingleTextDecimal(XmlNode Node, string Selector, decimal? Default = null)
+    public static decimal? SelectSingleTextDecimal(XmlNode node, string selector, decimal? defaultValue = null)
     {
-        WorkNode = Node.SelectSingleNode(Selector, Manager);
-        if (WorkNode != null && decimal.TryParse(WorkNode.InnerText, out dTryParse))
+        workNode = node.SelectSingleNode(selector, Manager);
+        if (workNode != null && decimal.TryParse(workNode.InnerText, out dTryParse))
         {
             return dTryParse;
         }
-        else
-        {
-            return Default;
-        }
+
+        return defaultValue;
     }
-    public static decimal? SelectSingleAttributeDecimal(XmlNode Node, string Name, decimal? Default = null)
+    public static decimal? SelectSingleAttributeDecimal(XmlNode node, string name, decimal? defaultValue = null)
     {
-        WorkAttr = Node.Attributes[Name];
-        if (WorkAttr != null && decimal.TryParse(WorkAttr.Value, out dTryParse))
+        if (node?.Attributes == null)
+        {
+            return defaultValue;
+        }
+
+        workAttr = node.Attributes[name];
+        if (workAttr != null && decimal.TryParse(workAttr.Value, out dTryParse))
         {
             return dTryParse;
         }
-        else
-        {
-            return Default;
-        }
+
+        return defaultValue;
     }
 
-    public static DateTime? SelectSingleTextDateTime(XmlNode Node, string Selector, DateTime? Default = null)
+    public static DateTime? SelectSingleTextDateTime(XmlNode node, string selector, DateTime? defaultValue = null)
     {
-        WorkNode = Node.SelectSingleNode(Selector, Manager);
-        if (WorkNode != null && DateTime.TryParse(WorkNode.InnerText, out dtTryParse))
+        workNode = node.SelectSingleNode(selector, Manager);
+        if (workNode != null && DateTime.TryParse(workNode.InnerText, out dtTryParse))
         {
             return dtTryParse;
         }
-        else
-        {
-            return Default;
-        }
+
+        return defaultValue;
     }
-    public static DateTime? SelectSingleAttributeDateTime(XmlNode Node, string Name, DateTime? Default = null)
+    public static DateTime? SelectSingleAttributeDateTime(XmlNode node, string name, DateTime? defaultValue = null)
     {
-        WorkAttr = Node.Attributes[Name];
-        if (WorkAttr != null && DateTime.TryParse(WorkAttr.Value, out dtTryParse))
+        if (node?.Attributes == null)
+        {
+            return defaultValue;
+        }
+
+        workAttr = node.Attributes[name];
+        if (workAttr != null && DateTime.TryParse(workAttr.Value, out dtTryParse))
         {
             return dtTryParse;
         }
-        else
-        {
-            return Default;
-        }
+
+        return defaultValue;
     }
 }
