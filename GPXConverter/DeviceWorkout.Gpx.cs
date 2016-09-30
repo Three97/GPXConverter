@@ -57,8 +57,7 @@ public partial class DeviceFile
         dataStream.Position = 0;
         var doc = new XmlDocument();
         doc.Load(dataStream);
-        if (doc.DocumentElement == null 
-            || "gpx" == doc.DocumentElement.Name
+        if ("gpx" == doc.DocumentElement.Name
             || doc.DocumentElement.NamespaceURI == "http://www.topografix.com/GPX/1/1")
         {
             return FromGPXV1(doc);
@@ -190,14 +189,34 @@ public partial class DeviceFile
                         trackPointNode,
                         $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:hr");
 
+                    if (point.HR == null)
+                    {
+                        point.HR = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpxExt}:hr");
+                    }
+
                     point.Temp = XMLParserHelper.SelectSingleTextInt(
                         trackPointNode,
                         $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:atemp");
 
-                    // TODO: Multiply CAD result x 2 like in TCX?
+                    if (point.Temp == null)
+                    {
+                        point.Temp = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpxExt}:temp");
+                    }
+
                     point.CAD = XMLParserHelper.SelectSingleTextInt(
                         trackPointNode,
                         $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:cad");
+
+                    if (point.CAD == null)
+                    {
+                        point.CAD = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpxExt}:cadence");
+                    }
+
+                    // TODO: Multiply CAD result x 2 like in TCX?  Bike no...Run yes?
+                    if (activity.Sport == "run")
+                    {
+                        point.CAD = point.CAD * 2;
+                    }
 
                     // TODO: What, if anything, are we supposed to do with these values?
                     point.StartSeconds = null; // TODO: Calculate from pointTimes?
