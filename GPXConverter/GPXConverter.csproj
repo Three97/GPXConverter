@@ -43,6 +43,7 @@
     <Compile Include="DeviceWorkout.cs" />
     <Compile Include="DeviceWorkout.Gpx.cs" />
     <Compile Include="DeviceWorkout.Tcx.cs" />
+    <Compile Include="LapInterval.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XMLParserHelper.cs" />
   </ItemGroup>
