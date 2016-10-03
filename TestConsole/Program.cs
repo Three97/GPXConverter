@@ -19,25 +19,34 @@ namespace TestConsole
         {
             const string outputDir = @"..\..\..\Output";
             decimal lapIntervalMeters = 1000;
-            //var gpxFile = @"C:\DEV\GitHub\GPXConverter\GPXFiles\activity_1358503471.gpx";
-            //var gpxFile = @"C:\DEV\GitHub\GPXConverter\GPXFiles\Evening_Run.gpx";
-            //var gpxFile = @"C:\DEV\GitHub\GPXConverter\GPXFiles\Morning_Ride.gpx";
-            //var gpxFile = @"..\..\..\GPXFiles\Morning_Ride.gpx";
-            var gpxFile = @"..\..\..\GPXFiles\Evening_Run.gpx";
-
-            var files = DeviceFile.FromGpx(gpxFile, lapIntervalMeters);
+            var gpxFiles = new List<string>
+            {
+                @"..\..\..\GPXFiles\activity_1358503471.gpx",
+                @"..\..\..\GPXFiles\Morning_Ride.gpx",
+                @"..\..\..\GPXFiles\Evening_Run.gpx",
+                @"..\..\..\GPXFiles\Morning_Run.gpx",
+                @"..\..\..\GPXFiles\Cone Peak.gpx"
+            };
 
             var serializer = new XmlSerializer(typeof(DeviceFile));
-            var idx = 1;
-            files.ForEach(
-                file =>
+            var deviceFiles = gpxFiles.ToDictionary(f => Path.GetFileNameWithoutExtension(f), f => DeviceFile.FromGpx(f, lapIntervalMeters));
+            deviceFiles.Keys.ToList().ForEach(k =>
+            {
+                var first = true;
+                var idx = 2;
+                deviceFiles[k].ToList().ForEach(file =>
+                {
+                    var filenameSuffix = first ? string.Empty : (idx++).ToString();
+                    var outputFile = Path.Combine(outputDir, $"{k}{filenameSuffix}.xml");
+
+                    using (TextWriter writer = new StreamWriter(outputFile))
                     {
-                        var outputFile = Path.Combine(outputDir, Path.GetFileNameWithoutExtension(gpxFile) + (idx++) + ".xml");
-                        using (TextWriter writer = new StreamWriter(outputFile))
-                        {
-                            serializer.Serialize(writer, file);
-                        }
-                    });
+                        serializer.Serialize(writer, file);
+                    }
+                });
+
+                first = false;
+            });
 
             Console.WriteLine("\n\nPress any key to continue...");
             Console.ReadKey();

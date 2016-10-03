@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 using System.IO;
-using System.Net;
-using System.Runtime.CompilerServices;
 using System.Xml.XPath;
 //using Dynastream;
 
@@ -18,14 +15,14 @@ public partial class DeviceFile
     {
         GPX,
         TrackPointExtensions,
-        GPXExtensions
+        CluetrustExtensions
     }
 
     private static readonly Dictionary<NamespaceType, string> ValidNamespaces = new Dictionary<NamespaceType, string>
     {
         { NamespaceType.GPX, "http://www.topografix.com/GPX/1/1" },
         { NamespaceType.TrackPointExtensions, "http://www.garmin.com/xmlschemas/TrackPointExtension/v1" },
-        { NamespaceType.GPXExtensions, "http://www.garmin.com/xmlschemas/GpxExtensions/v3" }
+        { NamespaceType.CluetrustExtensions, "http://www.garmin.com/xmlschemas/GpxExtensions/v3" }
     };
 
     const double _eQuatorialEarthRadius = 6378.1370D;
@@ -102,14 +99,14 @@ public partial class DeviceFile
         var namespacePrefixes =
             namespaces.Join(
                 ValidNamespaces,
-                o => o.Value,
-                i => i.Value,
+                o => o.Value.ToLower(),
+                i => i.Value.ToLower(),
                 (i, o) => new { Type = o.Key, Prefix = string.IsNullOrWhiteSpace(i.Key) ? "gpx" : i.Key, Url = o.Value })
                 .ToList();
 
         var prefixGpx = namespacePrefixes.Single(x => x.Type == NamespaceType.GPX).Prefix;
-        var prefixTrackPointExt = namespacePrefixes.Single(x => x.Type == NamespaceType.TrackPointExtensions).Prefix;
-        var prefixGpxExt = namespacePrefixes.Single(x => x.Type == NamespaceType.GPXExtensions).Prefix;
+        var prefixTrackPointExt = namespacePrefixes.SingleOrDefault(x => x.Type == NamespaceType.TrackPointExtensions)?.Prefix;
+        var prefixCluetrustExt = namespacePrefixes.SingleOrDefault(x => x.Type == NamespaceType.CluetrustExtensions)?.Prefix;
 
         var namespaceManager = new XmlNamespaceManager(document.NameTable);
         namespacePrefixes.ForEach(x => namespaceManager.AddNamespace(x.Prefix, x.Url));
@@ -167,11 +164,12 @@ public partial class DeviceFile
                         if (activityStartTimeUtc == null)
                         {
                             activityStartTimeUtc = pointTimeUtc;
-                            point.StartSeconds = 0;
+                            point.StartSeconds = 1;
+                            point.Distance = 0;
                         }
                         else
                         {
-                            point.StartSeconds = (pointTimeUtc.Value - activityStartTimeUtc.Value).TotalSeconds;
+                            point.StartSeconds = (pointTimeUtc.Value - activityStartTimeUtc.Value.AddSeconds(1)).TotalSeconds;
                         }
                     }
 
@@ -184,34 +182,45 @@ public partial class DeviceFile
                         trackPointNode,
                         $"{prefixGpx}:ele");
 
-                    // Parse heart rate...
-                    point.HR = XMLParserHelper.SelectSingleTextInt(
-                        trackPointNode,
-                        $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:hr");
-
-                    if (point.HR == null)
+                    // Parse TrackPoint extension data...
+                    if (prefixTrackPointExt != null)
                     {
-                        point.HR = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpxExt}:hr");
+                        // Parse heart rate...
+                        point.HR = XMLParserHelper.SelectSingleTextInt(
+                            trackPointNode,
+                            $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:hr");
+
+                        // Parse ambient temp...
+                        point.Temp = XMLParserHelper.SelectSingleTextInt(
+                            trackPointNode,
+                            $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:atemp");
+
+                        // Parse cadence...
+                        point.CAD = XMLParserHelper.SelectSingleTextInt(
+                            trackPointNode,
+                            $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:cad");
                     }
 
-                    // Parse ambient temp...
-                    point.Temp = XMLParserHelper.SelectSingleTextInt(
-                        trackPointNode,
-                        $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:atemp");
-
-                    if (point.Temp == null)
+                    // Parse Cluetrust extension data...
+                    if (prefixCluetrustExt != null)
                     {
-                        point.Temp = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpxExt}:temp");
-                    }
+                        // Parse heart rate...
+                        if (point.HR == null)
+                        {
+                            point.HR = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixCluetrustExt}:hr");
+                        }
 
-                    // Parse cadence...
-                    point.CAD = XMLParserHelper.SelectSingleTextInt(
-                        trackPointNode,
-                        $"{prefixGpx}:extensions/{prefixTrackPointExt}:TrackPointExtension/{prefixTrackPointExt}:cad");
+                        // Parse ambient temp...
+                        if (point.Temp == null)
+                        {
+                            point.Temp = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixCluetrustExt}:temp");
+                        }
 
-                    if (point.CAD == null)
-                    {
-                        point.CAD = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpxExt}:cadence");
+                        // Parse cadence...
+                        if (point.CAD == null)
+                        {
+                            point.CAD = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixCluetrustExt}:cadence");
+                        }
                     }
 
                     // Multiply CAD result x 2 like in TCX?  
@@ -227,35 +236,43 @@ public partial class DeviceFile
 
             // Re-run through point list to calculate distances and break up into laps...
             var lapList = new List<DeviceLap>();
-            var currentLap = new DeviceLap();
-            decimal previousPointDistance = 0;
-            decimal previousLapDistance = 0;
-            for (var i = 0; i < allTrackPoints.Count - 2; i++)
+            var currentLap = new DeviceLap { StartSeconds = 0 };
+            for (var i = 1; i < allTrackPoints.Count; i++)
             {
+                var currentPoint = allTrackPoints[i];
+                var previousPoint = allTrackPoints[i - 1];
+
                 if (currentLap.Track.Count == 0)
                 {
+                    var previousLap = activity.Laps.LastOrDefault();
+                    if (previousLap != null)
+                    {
+                        previousLap.Time = (decimal)(currentPoint.StartSeconds.Value - previousLap.StartSeconds.Value);
+                    }
+
                     activity.Laps.Add(currentLap);
                 }
 
-                var currentPoint = allTrackPoints[i];
-                var nextPoint = allTrackPoints[i + 1];
-
                 if (currentPoint.Latitude == null 
                     || currentPoint.Longitude == null 
-                    || nextPoint.Latitude == null
-                    || nextPoint.Longitude == null)
+                    || previousPoint.Latitude == null
+                    || previousPoint.Longitude == null)
                 {
                     continue;
                 }
 
                 var distanceKm = HaversineInKM(
+                    (double)previousPoint.Latitude.Value,
+                    (double)previousPoint.Longitude.Value,
                     (double)currentPoint.Latitude.Value,
-                    (double)currentPoint.Longitude.Value,
-                    (double)nextPoint.Latitude.Value,
-                    (double)nextPoint.Longitude.Value);
+                    (double)currentPoint.Longitude.Value);
 
-                currentPoint.Distance = (decimal)(distanceKm * 1000.0) + previousPointDistance;
-                previousPointDistance = currentPoint.Distance.Value;
+                var currentPointDistanceDelta = (decimal)(distanceKm * 1000.0);
+                currentPoint.Distance = currentPointDistanceDelta + previousPoint.Distance;
+                var startSecondsDelta = (decimal)(currentPoint.StartSeconds.Value - previousPoint.StartSeconds.Value);
+                startSecondsDelta = startSecondsDelta == 0 ? 1 : startSecondsDelta;
+                currentPoint.Speed = currentPointDistanceDelta / startSecondsDelta;
+
                 currentLap.Track.Add(currentPoint);
 
                 if (currentLap.StartSeconds == null)
@@ -263,36 +280,43 @@ public partial class DeviceFile
                     currentLap.StartSeconds = currentPoint.StartSeconds;
                 }
 
-                currentLap.Distance = currentLap.Track.Last().Distance.Value - previousLapDistance;
+                currentLap.Distance = currentLap.Track.Last().Distance.Value - currentLap.Track.First().Distance.Value;
                 if (currentLap.Distance.Value < lapIntervalMeters)
                 {
                     continue;
                 }
 
                 // Reached the end of the lap, start a new one...
-                previousLapDistance = currentLap.Distance.Value;
-                currentLap = new DeviceLap();
+                currentLap = new DeviceLap { StartSeconds = currentLap.Track.Last().StartSeconds.Value };
             }
 
-            // Loop through all resulting laps to calculate remaining aggregates...
-            activity.Laps.ForEach(
-                lap =>
-                    {
-                        // Calculate HRMax and HRAvg from lap's collection of HR points...
-                        var hrPoints = lap.Track.Where(t => t.HR != null).Select(x => x.HR).ToList();
-                        lap.HeartRateMax = hrPoints.Any() ? hrPoints.Max() : null;
-                        lap.HeartRateAvg = hrPoints.Any() ? (int?)hrPoints.Average() : null;
+            // Calculate Time for last lap...
+            var lastLap = activity.Laps.Last();
+            lastLap.Time = (decimal)(lastLap.Track.Last().StartSeconds.Value - lastLap.Track.First().StartSeconds.Value);
 
-                        // Calculate CADMax and CADAvg from lap's collection of CAD points...
-                        var cadPoints = lap.Track.Where(t => t.CAD != null).Select(x => x.CAD).ToList();
-                        lap.CADMax = cadPoints.Any() ? cadPoints.Max() : null;
-                        lap.CADAvg = cadPoints.Any() ? (int?)cadPoints.Average() : null;
+            // Loop through resulting laps to calculate Time and remaining aggregates...
+            activity.Laps.ForEach(lap =>
+            {
+                // Calculate HRMax and HRAvg from lap's collection of HR points...
+                var hrPoints = lap.Track.Where(t => t.HR != null).Select(x => x.HR.Value).ToList();
+                lap.HeartRateMax = hrPoints.Any() ? (int?)hrPoints.Max() : null;
+                lap.HeartRateAvg = hrPoints.Any() ? (int?)hrPoints.Average() : null;
 
-                        // Calculate TempMax and TempAvg from lap's collection of Temp points...
-                        var tempPoints = lap.Track.Where(t => t.Temp != null).Select(x => x.Temp).ToList();
-                        lap.TempMax = tempPoints.Any() ? tempPoints.Max() : null;
-                        lap.TempAvg = tempPoints.Any() ? (int?)tempPoints.Average() : null;
-                    });
+                // Calculate CADMax and CADAvg from lap's collection of CAD points...
+                var cadPoints = lap.Track.Where(t => t.CAD != null).Select(x => x.CAD.Value).ToList();
+                lap.CADMax = cadPoints.Any() ? (int?)cadPoints.Max() : null;
+                lap.CADAvg = cadPoints.Any() ? (int?)cadPoints.Average() : null;
+
+                // Calculate TempMax and TempAvg from lap's collection of Temp points...
+                var tempPoints = lap.Track.Where(t => t.Temp != null).Select(x => x.Temp.Value).ToList();
+                lap.TempMax = tempPoints.Any() ? (int?)tempPoints.Max() : null;
+                lap.TempAvg = tempPoints.Any() ? (int?)tempPoints.Average() : null;
+
+                // Calculage SpeedMax and SpeedAvg from lap's collection of points...
+                var speedPoints = lap.Track.Where(t => t.Speed != null).Select(x => x.Speed.Value).ToList();
+                lap.SpeedMax = speedPoints.Any() ? (decimal?)speedPoints.Max() : null;
+                lap.SpeedAvg = speedPoints.Any() ? (decimal?)speedPoints.Average() : null;
+            });
         }
 
         return file;
