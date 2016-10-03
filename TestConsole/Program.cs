@@ -43,9 +43,9 @@ namespace TestConsole
                     {
                         serializer.Serialize(writer, file);
                     }
-                });
 
-                first = false;
+                    first = false;
+                });
             });
 
             Console.WriteLine("\n\nPress any key to continue...");

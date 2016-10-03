@@ -8,11 +8,28 @@
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>0</StartSeconds>
+              <Latitude>35.929245287552475929260253906</Latitude>
+              <Longitude>-78.57922308146953582763671875</Longitude>
+              <Altitude>92.8000030517578125</Altitude>
+              <Distance>0</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD>90</CAD>
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds>0</StartSeconds>
               <Latitude>35.929215615615248680114746094</Latitude>
               <Longitude>-78.579230876639485359191894531</Longitude>
               <Altitude>93</Altitude>
               <Distance>3.37697579957776</Distance>
-              <Speed>-3.37697579957776</Speed>
+              <Speed>3.37697579957776</Speed>
               <HR xsi:nil="true" />
               <RPM xsi:nil="true" />
               <CAD>108</CAD>
@@ -6244,6 +6261,30 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
+          </Track>
+          <StartSeconds>0</StartSeconds>
+          <Time>386</Time>
+          <Distance>1001.15537891513839</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg>166</CADAvg>
+          <CADMax>174</CADMax>
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg>2.6726479090781943869209809264</SpeedAvg>
+          <SpeedMax>3.68167095115651</SpeedMax>
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+        <DeviceLap>
+          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>386</StartSeconds>
@@ -6261,30 +6302,6 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
-          </Track>
-          <StartSeconds>0</StartSeconds>
-          <Time>387</Time>
-          <Distance>1000.01639762449202</Distance>
-          <Calories xsi:nil="true" />
-          <HeartRateAvg xsi:nil="true" />
-          <HeartRateMax xsi:nil="true" />
-          <RPMAvg xsi:nil="true" />
-          <RPMMax xsi:nil="true" />
-          <CADAvg>166</CADAvg>
-          <CADMax>174</CADMax>
-          <WattsAvg xsi:nil="true" />
-          <WattsMax xsi:nil="true" />
-          <SpeedAvg>2.6531136563626989402173913043</SpeedAvg>
-          <SpeedMax>3.68167095115651</SpeedMax>
-          <TempAvg xsi:nil="true" />
-          <TempMax xsi:nil="true" />
-          <GroundContactAvg xsi:nil="true" />
-          <GroundContactMax xsi:nil="true" />
-          <VerticalOscillationAvg xsi:nil="true" />
-          <VerticalOscillationMax xsi:nil="true" />
-        </DeviceLap>
-        <DeviceLap>
-          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>387</StartSeconds>
@@ -12864,6 +12881,30 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
+          </Track>
+          <StartSeconds>385</StartSeconds>
+          <Time>389</Time>
+          <Distance>1001.328013792954104</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg>167</CADAvg>
+          <CADMax>174</CADMax>
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg>2.5865103306749626134020618557</SpeedAvg>
+          <SpeedMax>5.97110008019261</SpeedMax>
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+        <DeviceLap>
+          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>774</StartSeconds>
@@ -12881,30 +12922,6 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
-          </Track>
-          <StartSeconds>386</StartSeconds>
-          <Time>389</Time>
-          <Distance>1001.648704199181314</Distance>
-          <Calories xsi:nil="true" />
-          <HeartRateAvg xsi:nil="true" />
-          <HeartRateMax xsi:nil="true" />
-          <RPMAvg xsi:nil="true" />
-          <RPMMax xsi:nil="true" />
-          <CADAvg>167</CADAvg>
-          <CADMax>174</CADMax>
-          <WattsAvg xsi:nil="true" />
-          <WattsMax xsi:nil="true" />
-          <SpeedAvg>2.5876444607763632061855670103</SpeedAvg>
-          <SpeedMax>5.97110008019261</SpeedMax>
-          <TempAvg xsi:nil="true" />
-          <TempMax xsi:nil="true" />
-          <GroundContactAvg xsi:nil="true" />
-          <GroundContactMax xsi:nil="true" />
-          <VerticalOscillationAvg xsi:nil="true" />
-          <VerticalOscillationMax xsi:nil="true" />
-        </DeviceLap>
-        <DeviceLap>
-          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>775</StartSeconds>
@@ -19705,6 +19722,30 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
+          </Track>
+          <StartSeconds>773</StartSeconds>
+          <Time>402</Time>
+          <Distance>1000.238107090551616</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg>161</CADAvg>
+          <CADMax>180</CADMax>
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg>2.5010377657826095660847880299</SpeedAvg>
+          <SpeedMax>8.92946477826036</SpeedMax>
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+        <DeviceLap>
+          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>1175</StartSeconds>
@@ -19722,30 +19763,6 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
-          </Track>
-          <StartSeconds>774</StartSeconds>
-          <Time>402</Time>
-          <Distance>1003.913021977560076</Distance>
-          <Calories xsi:nil="true" />
-          <HeartRateAvg xsi:nil="true" />
-          <HeartRateMax xsi:nil="true" />
-          <RPMAvg xsi:nil="true" />
-          <RPMMax xsi:nil="true" />
-          <CADAvg>161</CADAvg>
-          <CADMax>180</CADMax>
-          <WattsAvg xsi:nil="true" />
-          <WattsMax xsi:nil="true" />
-          <SpeedAvg>2.5095225726346934563591022444</SpeedAvg>
-          <SpeedMax>8.92946477826036</SpeedMax>
-          <TempAvg xsi:nil="true" />
-          <TempMax xsi:nil="true" />
-          <GroundContactAvg xsi:nil="true" />
-          <GroundContactMax xsi:nil="true" />
-          <VerticalOscillationAvg xsi:nil="true" />
-          <VerticalOscillationMax xsi:nil="true" />
-        </DeviceLap>
-        <DeviceLap>
-          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>1176</StartSeconds>
@@ -26308,6 +26325,30 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
+          </Track>
+          <StartSeconds>1174</StartSeconds>
+          <Time>388</Time>
+          <Distance>1001.157258896950150</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg>167</CADAvg>
+          <CADMax>180</CADMax>
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg>2.6026814042194072609819121447</SpeedAvg>
+          <SpeedMax>6.08044453596046</SpeedMax>
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+        <DeviceLap>
+          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>1562</StartSeconds>
@@ -26325,30 +26366,6 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
-          </Track>
-          <StartSeconds>1175</StartSeconds>
-          <Time>388</Time>
-          <Distance>1000.028866615374150</Distance>
-          <Calories xsi:nil="true" />
-          <HeartRateAvg xsi:nil="true" />
-          <HeartRateMax xsi:nil="true" />
-          <RPMAvg xsi:nil="true" />
-          <RPMMax xsi:nil="true" />
-          <CADAvg>167</CADAvg>
-          <CADMax>180</CADMax>
-          <WattsAvg xsi:nil="true" />
-          <WattsMax xsi:nil="true" />
-          <SpeedAvg>2.5947147385554941343669250646</SpeedAvg>
-          <SpeedMax>4.3597374401274</SpeedMax>
-          <TempAvg xsi:nil="true" />
-          <TempMax xsi:nil="true" />
-          <GroundContactAvg xsi:nil="true" />
-          <GroundContactMax xsi:nil="true" />
-          <VerticalOscillationAvg xsi:nil="true" />
-          <VerticalOscillationMax xsi:nil="true" />
-        </DeviceLap>
-        <DeviceLap>
-          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>1563</StartSeconds>
@@ -31908,6 +31925,30 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
+          </Track>
+          <StartSeconds>1561</StartSeconds>
+          <Time>425</Time>
+          <Distance>1002.123282481411640</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg>169</CADAvg>
+          <CADMax>178</CADMax>
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg>3.0003418051381594053306512445</SpeedAvg>
+          <SpeedMax>4.94779319165563</SpeedMax>
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+        <DeviceLap>
+          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>1986</StartSeconds>
@@ -31925,30 +31966,6 @@
               <GroundContact xsi:nil="true" />
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
-          </Track>
-          <StartSeconds>1562</StartSeconds>
-          <Time>425</Time>
-          <Distance>1002.501858280062420</Distance>
-          <Calories xsi:nil="true" />
-          <HeartRateAvg xsi:nil="true" />
-          <HeartRateMax xsi:nil="true" />
-          <RPMAvg xsi:nil="true" />
-          <RPMMax xsi:nil="true" />
-          <CADAvg>169</CADAvg>
-          <CADMax>178</CADMax>
-          <WattsAvg xsi:nil="true" />
-          <WattsMax xsi:nil="true" />
-          <SpeedAvg>3.0020707554768600455745536835</SpeedAvg>
-          <SpeedMax>4.94779319165563</SpeedMax>
-          <TempAvg xsi:nil="true" />
-          <TempMax xsi:nil="true" />
-          <GroundContactAvg xsi:nil="true" />
-          <GroundContactMax xsi:nil="true" />
-          <VerticalOscillationAvg xsi:nil="true" />
-          <VerticalOscillationMax xsi:nil="true" />
-        </DeviceLap>
-        <DeviceLap>
-          <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
               <StartSeconds>1987</StartSeconds>
@@ -35333,9 +35350,9 @@
               <VerticalOscillation xsi:nil="true" />
             </DevicePoint>
           </Track>
-          <StartSeconds>1986</StartSeconds>
-          <Time>198</Time>
-          <Distance>626.192199890380470</Distance>
+          <StartSeconds>1985</StartSeconds>
+          <Time>199</Time>
+          <Distance>629.463630512978100</Distance>
           <Calories xsi:nil="true" />
           <HeartRateAvg xsi:nil="true" />
           <HeartRateMax xsi:nil="true" />
@@ -35345,7 +35362,7 @@
           <CADMax>176</CADMax>
           <WattsAvg xsi:nil="true" />
           <WattsMax xsi:nil="true" />
-          <SpeedAvg>3.1631338216732567839195979899</SpeedAvg>
+          <SpeedAvg>3.16514035574048995</SpeedAvg>
           <SpeedMax>3.94252043304077</SpeedMax>
           <TempAvg xsi:nil="true" />
           <TempMax xsi:nil="true" />

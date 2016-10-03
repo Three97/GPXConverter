@@ -1,0 +1,1894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Activities>
+    <DeviceActivity>
+      <Laps>
+        <DeviceLap>
+          <Track>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412974722</Latitude>
+              <Longitude>-122.085464904</Longitude>
+              <Altitude>1269.222</Altitude>
+              <Distance>0</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412993804</Latitude>
+              <Longitude>-122.085827422</Longitude>
+              <Altitude>1277.308</Altitude>
+              <Distance>28.9045331940844</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413178835</Latitude>
+              <Longitude>-122.086277113</Longitude>
+              <Altitude>1282.598</Altitude>
+              <Distance>70.1707150074832</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413228023</Latitude>
+              <Longitude>-122.087136845</Longitude>
+              <Altitude>1294.43</Altitude>
+              <Distance>138.7527735080536</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413356076</Latitude>
+              <Longitude>-122.088096611</Longitude>
+              <Altitude>1307.664</Altitude>
+              <Distance>216.3900278500641</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413530504</Latitude>
+              <Longitude>-122.088928598</Longitude>
+              <Altitude>1319.545</Altitude>
+              <Distance>285.3373458994593</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413672787</Latitude>
+              <Longitude>-122.089762524</Longitude>
+              <Altitude>1327.101</Altitude>
+              <Distance>353.5133958783297</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413754687</Latitude>
+              <Longitude>-122.090624312</Longitude>
+              <Altitude>1333.451</Altitude>
+              <Distance>422.6432397080883</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413741971</Latitude>
+              <Longitude>-122.09121208</Longitude>
+              <Altitude>1338.508</Altitude>
+              <Distance>469.4016571107246</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413640299</Latitude>
+              <Longitude>-122.091815791</Longitude>
+              <Altitude>1349.183</Altitude>
+              <Distance>518.7226012637389</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413536735</Latitude>
+              <Longitude>-122.092303466</Longitude>
+              <Altitude>1356.494</Altitude>
+              <Distance>559.1781471262332</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413509023</Latitude>
+              <Longitude>-122.092817387</Longitude>
+              <Altitude>1357.515</Altitude>
+              <Distance>600.1595420244214</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413599686</Latitude>
+              <Longitude>-122.093292973</Longitude>
+              <Altitude>1363.288</Altitude>
+              <Distance>639.2999728417834</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413675467</Latitude>
+              <Longitude>-122.093540013</Longitude>
+              <Altitude>1366.216</Altitude>
+              <Distance>660.6784347935343</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413709536</Latitude>
+              <Longitude>-122.09371851</Longitude>
+              <Altitude>1366.915</Altitude>
+              <Distance>675.3697816608026</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413666309</Latitude>
+              <Longitude>-122.093889867</Longitude>
+              <Altitude>1369.074</Altitude>
+              <Distance>689.8201661584003</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413540676</Latitude>
+              <Longitude>-122.094041091</Longitude>
+              <Altitude>1372.757</Altitude>
+              <Distance>708.2643090100330</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413426147</Latitude>
+              <Longitude>-122.094100272</Longitude>
+              <Altitude>1376.055</Altitude>
+              <Distance>721.8543798537896</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.41340616</Latitude>
+              <Longitude>-122.094362621</Longitude>
+              <Altitude>1378.804</Altitude>
+              <Distance>742.8337682231634</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413310582</Latitude>
+              <Longitude>-122.094560043</Longitude>
+              <Altitude>1382.675</Altitude>
+              <Distance>761.7979549326059</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413183943</Latitude>
+              <Longitude>-122.094693384</Longitude>
+              <Altitude>1385.914</Altitude>
+              <Distance>779.4375859986135</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413165398</Latitude>
+              <Longitude>-122.094824133</Longitude>
+              <Altitude>1387.479</Altitude>
+              <Distance>790.0373095648529</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413039891</Latitude>
+              <Longitude>-122.094880719</Longitude>
+              <Altitude>1390.825</Altitude>
+              <Distance>804.7153622117818</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412940989</Latitude>
+              <Longitude>-122.095033497</Longitude>
+              <Altitude>1393.214</Altitude>
+              <Distance>821.1104532356496</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412894475</Latitude>
+              <Longitude>-122.095296333</Longitude>
+              <Altitude>1394.865</Altitude>
+              <Distance>842.6422851093391</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412944894</Latitude>
+              <Longitude>-122.095508407</Longitude>
+              <Altitude>1395.682</Altitude>
+              <Distance>860.4152963331855</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412943528</Latitude>
+              <Longitude>-122.095646219</Longitude>
+              <Altitude>1397.75</Altitude>
+              <Distance>871.3747669835858</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412971749</Latitude>
+              <Longitude>-122.095731488</Longitude>
+              <Altitude>1399.019</Altitude>
+              <Distance>878.84754428610372</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412982751</Latitude>
+              <Longitude>-122.095836264</Longitude>
+              <Altitude>1400.677</Altitude>
+              <Distance>887.26856482449936</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413048458</Latitude>
+              <Longitude>-122.095995859</Longitude>
+              <Altitude>1403.494</Altitude>
+              <Distance>901.91611806734656</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413200584</Latitude>
+              <Longitude>-122.096038742</Longitude>
+              <Altitude>1405.017</Altitude>
+              <Distance>919.19060427427006</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413303203</Latitude>
+              <Longitude>-122.096374188</Longitude>
+              <Altitude>1411.169</Altitude>
+              <Distance>948.20741513489116</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413340396</Latitude>
+              <Longitude>-122.09665234</Longitude>
+              <Altitude>1415.773</Altitude>
+              <Distance>970.70930690009736</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413369694</Latitude>
+              <Longitude>-122.09688193</Longitude>
+              <Altitude>1419.911</Altitude>
+              <Distance>989.25455503174216</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413365917</Latitude>
+              <Longitude>-122.097143121</Longitude>
+              <Altitude>1423.735</Altitude>
+              <Distance>1010.02782055247626</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+          </Track>
+          <StartSeconds xsi:nil="true" />
+          <Time xsi:nil="true" />
+          <Distance>1010.02782055247626</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg xsi:nil="true" />
+          <CADMax xsi:nil="true" />
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg xsi:nil="true" />
+          <SpeedMax xsi:nil="true" />
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+        <DeviceLap>
+          <Track>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413537941</Latitude>
+              <Longitude>-122.097271925</Longitude>
+              <Altitude>1429.223</Altitude>
+              <Distance>1031.74434448668976</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413548308</Latitude>
+              <Longitude>-122.097375028</Longitude>
+              <Altitude>1430.913</Altitude>
+              <Distance>1040.02354270458701</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.41357186</Latitude>
+              <Longitude>-122.097480726</Longitude>
+              <Altitude>1433.493</Altitude>
+              <Distance>1048.82769127766084</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413546361</Latitude>
+              <Longitude>-122.097670303</Longitude>
+              <Altitude>1435.36</Altitude>
+              <Distance>1064.16707464821654</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.41353178</Latitude>
+              <Longitude>-122.098003977</Longitude>
+              <Altitude>1440.344</Altitude>
+              <Distance>1090.74920828523754</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413486117</Latitude>
+              <Longitude>-122.098186586</Longitude>
+              <Altitude>1440.422</Altitude>
+              <Distance>1106.13364486515794</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413417609</Latitude>
+              <Longitude>-122.098322572</Longitude>
+              <Altitude>1440.21</Altitude>
+              <Distance>1119.36556538918814</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413388834</Latitude>
+              <Longitude>-122.098446826</Longitude>
+              <Altitude>1440.918</Altitude>
+              <Distance>1129.75208764848754</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413435399</Latitude>
+              <Longitude>-122.098564725</Longitude>
+              <Altitude>1443.403</Altitude>
+              <Distance>1140.46463521291194</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413679411</Latitude>
+              <Longitude>-122.098515241</Longitude>
+              <Altitude>1452.059</Altitude>
+              <Distance>1167.91143722739404</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413830695</Latitude>
+              <Longitude>-122.098419377</Longitude>
+              <Altitude>1457.004</Altitude>
+              <Distance>1186.39711901731864</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413863341</Latitude>
+              <Longitude>-122.098471952</Longitude>
+              <Altitude>1458.655</Altitude>
+              <Distance>1191.93642714668314</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413837611</Latitude>
+              <Longitude>-122.09860816</Longitude>
+              <Altitude>1458.707</Altitude>
+              <Distance>1203.13946441654494</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413870571</Latitude>
+              <Longitude>-122.098720806</Longitude>
+              <Altitude>1460.622</Altitude>
+              <Distance>1212.81896468780019</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413985593</Latitude>
+              <Longitude>-122.098659056</Longitude>
+              <Altitude>1464.158</Altitude>
+              <Distance>1226.53232975467669</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.414043888</Latitude>
+              <Longitude>-122.098472181</Longitude>
+              <Altitude>1464.985</Altitude>
+              <Distance>1242.74702832546029</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.414119088</Latitude>
+              <Longitude>-122.098382253</Longitude>
+              <Altitude>1466.846</Altitude>
+              <Distance>1253.75655220573689</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.414179887</Latitude>
+              <Longitude>-122.098401968</Longitude>
+              <Altitude>1469.248</Altitude>
+              <Distance>1260.70384547254895</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.414251645</Latitude>
+              <Longitude>-122.098605355</Longitude>
+              <Altitude>1473.171</Altitude>
+              <Distance>1278.74146442525355</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.414241624</Latitude>
+              <Longitude>-122.098825967</Longitude>
+              <Altitude>1473.884</Altitude>
+              <Distance>1296.31894199862195</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.414125106</Latitude>
+              <Longitude>-122.099351888</Longitude>
+              <Altitude>1472.1</Altitude>
+              <Distance>1340.10313521697785</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413993854</Latitude>
+              <Longitude>-122.099775378</Longitude>
+              <Altitude>1471.873</Altitude>
+              <Distance>1376.81037654524715</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413903406</Latitude>
+              <Longitude>-122.099858519</Longitude>
+              <Altitude>1470.329</Altitude>
+              <Distance>1388.85540915563965</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413770204</Latitude>
+              <Longitude>-122.099930668</Longitude>
+              <Altitude>1467.754</Altitude>
+              <Distance>1404.75453050829425</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413661879</Latitude>
+              <Longitude>-122.100065827</Longitude>
+              <Altitude>1467.112</Altitude>
+              <Distance>1420.90744456927595</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413594236</Latitude>
+              <Longitude>-122.100172815</Longitude>
+              <Altitude>1466.477</Altitude>
+              <Distance>1432.26853941654285</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413509511</Latitude>
+              <Longitude>-122.100272123</Longitude>
+              <Altitude>1464.799</Altitude>
+              <Distance>1444.56936875236055</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413483885</Latitude>
+              <Longitude>-122.100334379</Longitude>
+              <Altitude>1464.83</Altitude>
+              <Distance>1450.28285532261431</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413381893</Latitude>
+              <Longitude>-122.100447511</Longitude>
+              <Altitude>1464.252</Altitude>
+              <Distance>1464.76843091500061</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413335644</Latitude>
+              <Longitude>-122.100557382</Longitude>
+              <Altitude>1465.387</Altitude>
+              <Distance>1474.90912880085991</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413331345</Latitude>
+              <Longitude>-122.100676391</Longitude>
+              <Altitude>1467.697</Altitude>
+              <Distance>1484.38441370110357</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413262498</Latitude>
+              <Longitude>-122.100770774</Longitude>
+              <Altitude>1468.789</Altitude>
+              <Distance>1495.11112942433757</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413212768</Latitude>
+              <Longitude>-122.100826288</Longitude>
+              <Altitude>1469.63</Altitude>
+              <Distance>1502.19155078871820</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413191556</Latitude>
+              <Longitude>-122.100873576</Longitude>
+              <Altitude>1470.783</Altitude>
+              <Distance>1506.63168677603301</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413174172</Latitude>
+              <Longitude>-122.100940382</Longitude>
+              <Altitude>1472.573</Altitude>
+              <Distance>1512.28539216586563</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413153515</Latitude>
+              <Longitude>-122.100950029</Longitude>
+              <Altitude>1472.588</Altitude>
+              <Distance>1514.70949280809301</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413025775</Latitude>
+              <Longitude>-122.10097412</Longitude>
+              <Altitude>1471.534</Altitude>
+              <Distance>1529.05789740128131</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412839299</Latitude>
+              <Longitude>-122.100968245</Longitude>
+              <Altitude>1469.662</Altitude>
+              <Distance>1549.82156680187171</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412701132</Latitude>
+              <Longitude>-122.100940302</Longitude>
+              <Altitude>1468.734</Altitude>
+              <Distance>1565.36191426507331</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.41249046</Latitude>
+              <Longitude>-122.100973731</Longitude>
+              <Altitude>1470.142</Altitude>
+              <Distance>1588.96398194989381</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412351614</Latitude>
+              <Longitude>-122.100959902</Longitude>
+              <Altitude>1470.822</Altitude>
+              <Distance>1604.45931655315451</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412279769</Latitude>
+              <Longitude>-122.100915474</Longitude>
+              <Altitude>1470.248</Altitude>
+              <Distance>1613.20259059085246</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412195597</Latitude>
+              <Longitude>-122.100923888</Longitude>
+              <Altitude>1470.532</Altitude>
+              <Distance>1622.59643175707464</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412133986</Latitude>
+              <Longitude>-122.100776853</Longitude>
+              <Altitude>1468.314</Altitude>
+              <Distance>1636.15154059901824</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412181293</Latitude>
+              <Longitude>-122.100538972</Longitude>
+              <Altitude>1464.306</Altitude>
+              <Distance>1655.78678758076294</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412295653</Latitude>
+              <Longitude>-122.100307015</Longitude>
+              <Altitude>1459.639</Altitude>
+              <Distance>1678.19828974003844</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412288947</Latitude>
+              <Longitude>-122.100118455</Longitude>
+              <Altitude>1456.02</Altitude>
+              <Distance>1693.21078007139884</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.41225174</Latitude>
+              <Longitude>-122.100012685</Longitude>
+              <Altitude>1454.769</Altitude>
+              <Distance>1702.58594108093068</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412289722</Latitude>
+              <Longitude>-122.099808486</Longitude>
+              <Altitude>1451.678</Altitude>
+              <Distance>1719.36490914833938</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412279327</Latitude>
+              <Longitude>-122.099668258</Longitude>
+              <Altitude>1450.249</Altitude>
+              <Distance>1730.57544602117018</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412205105</Latitude>
+              <Longitude>-122.099622629</Longitude>
+              <Altitude>1450.263</Altitude>
+              <Distance>1739.59937531988087</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.41211017</Latitude>
+              <Longitude>-122.099612894</Longitude>
+              <Altitude>1450.791</Altitude>
+              <Distance>1750.19580484517587</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412010705</Latitude>
+              <Longitude>-122.099492097</Longitude>
+              <Altitude>1449.544</Altitude>
+              <Distance>1764.85407877477137</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412011059</Latitude>
+              <Longitude>-122.09933902</Longitude>
+              <Altitude>1447.594</Altitude>
+              <Distance>1777.02658158261627</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412075655</Latitude>
+              <Longitude>-122.09910282</Longitude>
+              <Altitude>1443.648</Altitude>
+              <Distance>1797.13826834123397</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412077179</Latitude>
+              <Longitude>-122.098826676</Longitude>
+              <Altitude>1440.02</Altitude>
+              <Distance>1819.09742976406397</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412045458</Latitude>
+              <Longitude>-122.098579395</Longitude>
+              <Altitude>1438.164</Altitude>
+              <Distance>1839.07535273494227</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.411937634</Latitude>
+              <Longitude>-122.098359511</Longitude>
+              <Altitude>1437.703</Altitude>
+              <Distance>1860.28358765102747</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.411905138</Latitude>
+              <Longitude>-122.098203885</Longitude>
+              <Altitude>1437.031</Altitude>
+              <Distance>1873.17661699639797</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.411967006</Latitude>
+              <Longitude>-122.098013806</Longitude>
+              <Altitude>1434.834</Altitude>
+              <Distance>1889.78653793990537</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.41209428</Latitude>
+              <Longitude>-122.097990121</Longitude>
+              <Altitude>1431.771</Altitude>
+              <Distance>1904.07924834409237</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412226147</Latitude>
+              <Longitude>-122.097931236</Longitude>
+              <Altitude>1430.366</Altitude>
+              <Distance>1919.48732963167497</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412356346</Latitude>
+              <Longitude>-122.097607633</Longitude>
+              <Altitude>1426.015</Altitude>
+              <Distance>1949.02064528730907</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412380989</Latitude>
+              <Longitude>-122.097265516</Longitude>
+              <Altitude>1422.241</Altitude>
+              <Distance>1976.36303952320347</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412394144</Latitude>
+              <Longitude>-122.096908105</Longitude>
+              <Altitude>1418.305</Altitude>
+              <Distance>2004.82131222140157</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412501476</Latitude>
+              <Longitude>-122.096764807</Longitude>
+              <Altitude>1415.671</Altitude>
+              <Distance>2021.33186376539857</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412702948</Latitude>
+              <Longitude>-122.096606456</Longitude>
+              <Altitude>1411.848</Altitude>
+              <Distance>2047.05257799647937</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+          </Track>
+          <StartSeconds xsi:nil="true" />
+          <Time xsi:nil="true" />
+          <Distance>1015.30823350978961</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg xsi:nil="true" />
+          <CADMax xsi:nil="true" />
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg xsi:nil="true" />
+          <SpeedMax xsi:nil="true" />
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+        <DeviceLap>
+          <Track>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412821512</Latitude>
+              <Longitude>-122.096647919</Longitude>
+              <Altitude>1412.969</Altitude>
+              <Distance>2060.65663566119487</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.412960682</Latitude>
+              <Longitude>-122.096502699</Longitude>
+              <Altitude>1411.02</Altitude>
+              <Distance>2079.97908123515267</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413024147</Latitude>
+              <Longitude>-122.09626204</Longitude>
+              <Altitude>1407.043</Altitude>
+              <Distance>2100.37805867821287</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
+              <StartSeconds xsi:nil="true" />
+              <Latitude>44.413040497</Latitude>
+              <Longitude>-122.096000417</Longitude>
+              <Altitude>1403.514</Altitude>
+              <Distance>2121.26100558556897</Distance>
+              <Speed xsi:nil="true" />
+              <HR xsi:nil="true" />
+              <RPM xsi:nil="true" />
+              <CAD xsi:nil="true" />
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp xsi:nil="true" />
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+          </Track>
+          <StartSeconds xsi:nil="true" />
+          <Time xsi:nil="true" />
+          <Distance>60.60436992437410</Distance>
+          <Calories xsi:nil="true" />
+          <HeartRateAvg xsi:nil="true" />
+          <HeartRateMax xsi:nil="true" />
+          <RPMAvg xsi:nil="true" />
+          <RPMMax xsi:nil="true" />
+          <CADAvg xsi:nil="true" />
+          <CADMax xsi:nil="true" />
+          <WattsAvg xsi:nil="true" />
+          <WattsMax xsi:nil="true" />
+          <SpeedAvg xsi:nil="true" />
+          <SpeedMax xsi:nil="true" />
+          <TempAvg xsi:nil="true" />
+          <TempMax xsi:nil="true" />
+          <GroundContactAvg xsi:nil="true" />
+          <GroundContactMax xsi:nil="true" />
+          <VerticalOscillationAvg xsi:nil="true" />
+          <VerticalOscillationMax xsi:nil="true" />
+        </DeviceLap>
+      </Laps>
+      <Sport>Unknown</Sport>
+      <Id>Echo Basin</Id>
+      <Creator>
+        <Name>GPS Visualizer http://www.gpsvisualizer.com/</Name>
+        <Version>1.1</Version>
+      </Creator>
+      <ActivityTime xsi:nil="true" />
+    </DeviceActivity>
+  </Activities>
+  <Author>
+    <Name>GPS Visualizer http://www.gpsvisualizer.com/</Name>
+    <Version>1.1</Version>
+  </Author>
+</DeviceFile>

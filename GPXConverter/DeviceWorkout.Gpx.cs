@@ -133,7 +133,7 @@ public partial class DeviceFile
         var fileTimeString = XMLParserHelper.SelectSingleTextString(document, $"/{prefixGpx}:gpx/{prefixGpx}:metadata/{prefixGpx}:time");
         if (!string.IsNullOrWhiteSpace(fileTimeString) && DateTimeOffset.TryParse(fileTimeString, out dtoFileTime))
         {
-            // TODO: FSSecurity.Current.ToUserTime ???
+            // TODO: dtoFileTime = FSSecurity.Current.ToUserTime(dtoFileTime);
             fileTime = dtoFileTime.DateTime;
         }
 
@@ -164,7 +164,7 @@ public partial class DeviceFile
                         if (activityStartTimeUtc == null)
                         {
                             activityStartTimeUtc = pointTimeUtc;
-                            point.StartSeconds = 1;
+                            point.StartSeconds = 0;
                             point.Distance = 0;
                         }
                         else
@@ -223,6 +223,31 @@ public partial class DeviceFile
                         }
                     }
 
+                    // Parse any generic extensions data...
+                    // Parse heart rate...
+                    if (point.HR == null)
+                    {
+                        point.HR = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpx}:heartrate");
+                    }
+
+                    // Parse cadence...
+                    if (point.CAD == null)
+                    {
+                        point.CAD = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpx}:cadence");
+                    }
+
+                    // Parse distance...
+                    if (point.Distance == null)
+                    {
+                        point.Distance = XMLParserHelper.SelectSingleTextDecimal(trackPointNode, $"{prefixGpx}:extensions/{prefixGpx}:distance");
+                    }
+
+                    // Parse power...
+                    if (point.Watts == null)
+                    {
+                        point.Watts = XMLParserHelper.SelectSingleTextInt(trackPointNode, $"{prefixGpx}:extensions/{prefixGpx}:power");
+                    }
+
                     // Multiply CAD result x 2 like in TCX?  
                     // TODO: Bike no...Run yes?
                     if (point.CAD != null)
@@ -233,10 +258,11 @@ public partial class DeviceFile
                     allTrackPoints.Add(point);
                 }
             }
-
+            
             // Re-run through point list to calculate distances and break up into laps...
+            var pointsHaveTimeInfo = allTrackPoints.All(p => p.StartSeconds.HasValue);
             var lapList = new List<DeviceLap>();
-            var currentLap = new DeviceLap { StartSeconds = 0 };
+            var currentLap = new DeviceLap { StartSeconds = pointsHaveTimeInfo ? (double?)0 : null };
             for (var i = 1; i < allTrackPoints.Count; i++)
             {
                 var currentPoint = allTrackPoints[i];
@@ -245,7 +271,7 @@ public partial class DeviceFile
                 if (currentLap.Track.Count == 0)
                 {
                     var previousLap = activity.Laps.LastOrDefault();
-                    if (previousLap != null)
+                    if (previousLap != null && pointsHaveTimeInfo)
                     {
                         previousLap.Time = (decimal)(currentPoint.StartSeconds.Value - previousLap.StartSeconds.Value);
                     }
@@ -253,31 +279,47 @@ public partial class DeviceFile
                     activity.Laps.Add(currentLap);
                 }
 
-                if (currentPoint.Latitude == null 
-                    || currentPoint.Longitude == null 
-                    || previousPoint.Latitude == null
-                    || previousPoint.Longitude == null)
+                decimal? currentPointDistanceDelta = null;
+                if (currentPoint.Distance == null)
                 {
-                    continue;
+                    if (currentPoint.Latitude == null
+                        || currentPoint.Longitude == null
+                        || previousPoint.Latitude == null
+                        || previousPoint.Longitude == null)
+                    {
+                        continue;
+                    }
+
+                    var distanceKm = HaversineInKM(
+                        (double)previousPoint.Latitude.Value,
+                        (double)previousPoint.Longitude.Value,
+                        (double)currentPoint.Latitude.Value,
+                        (double)currentPoint.Longitude.Value);
+
+                    currentPointDistanceDelta = (decimal)(distanceKm * 1000.0);
+                    currentPoint.Distance = currentPointDistanceDelta + (previousPoint.Distance ?? 0);
                 }
 
-                var distanceKm = HaversineInKM(
-                    (double)previousPoint.Latitude.Value,
-                    (double)previousPoint.Longitude.Value,
-                    (double)currentPoint.Latitude.Value,
-                    (double)currentPoint.Longitude.Value);
-
-                var currentPointDistanceDelta = (decimal)(distanceKm * 1000.0);
-                currentPoint.Distance = currentPointDistanceDelta + previousPoint.Distance;
-                var startSecondsDelta = (decimal)(currentPoint.StartSeconds.Value - previousPoint.StartSeconds.Value);
-                startSecondsDelta = startSecondsDelta == 0 ? 1 : startSecondsDelta;
-                currentPoint.Speed = currentPointDistanceDelta / startSecondsDelta;
+                if (i == 1)
+                {
+                    previousPoint.Distance = previousPoint.Distance ?? 0;
+                    currentLap.Track.Add(previousPoint);
+                }
 
                 currentLap.Track.Add(currentPoint);
 
-                if (currentLap.StartSeconds == null)
+                if (pointsHaveTimeInfo)
                 {
-                    currentLap.StartSeconds = currentPoint.StartSeconds;
+                    var startSecondsDelta = (decimal)(currentPoint.StartSeconds.Value - previousPoint.StartSeconds.Value);
+                    startSecondsDelta = startSecondsDelta == 0 ? 1 : startSecondsDelta;
+
+                    currentPointDistanceDelta = currentPointDistanceDelta ?? currentPoint.Distance - previousPoint.Distance;
+                    currentPoint.Speed = currentPointDistanceDelta / startSecondsDelta;
+
+                    if (currentLap.StartSeconds == null)
+                    {
+                        currentLap.StartSeconds = currentPoint.StartSeconds;
+                    }
                 }
 
                 currentLap.Distance = currentLap.Track.Last().Distance.Value - currentLap.Track.First().Distance.Value;
@@ -287,12 +329,15 @@ public partial class DeviceFile
                 }
 
                 // Reached the end of the lap, start a new one...
-                currentLap = new DeviceLap { StartSeconds = currentLap.Track.Last().StartSeconds.Value };
+                currentLap = new DeviceLap { StartSeconds = currentLap.Track.Last().StartSeconds };
             }
 
             // Calculate Time for last lap...
             var lastLap = activity.Laps.Last();
-            lastLap.Time = (decimal)(lastLap.Track.Last().StartSeconds.Value - lastLap.Track.First().StartSeconds.Value);
+            if (pointsHaveTimeInfo)
+            {
+                lastLap.Time = (decimal)(lastLap.Track.Last().StartSeconds.Value - lastLap.Track.First().StartSeconds.Value);
+            }
 
             // Loop through resulting laps to calculate Time and remaining aggregates...
             activity.Laps.ForEach(lap =>

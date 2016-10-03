@@ -7,6 +7,23 @@
           <Track>
             <DevicePoint>
               <LapNumber xsi:nil="true" />
+              <StartSeconds>0</StartSeconds>
+              <Latitude>37.0243600</Latitude>
+              <Longitude>-76.3483130</Longitude>
+              <Altitude>3.0</Altitude>
+              <Distance>0</Distance>
+              <Speed xsi:nil="true" />
+              <HR>87</HR>
+              <RPM xsi:nil="true" />
+              <CAD>152</CAD>
+              <Watts xsi:nil="true" />
+              <Calories xsi:nil="true" />
+              <Temp>26</Temp>
+              <GroundContact xsi:nil="true" />
+              <VerticalOscillation xsi:nil="true" />
+            </DevicePoint>
+            <DevicePoint>
+              <LapNumber xsi:nil="true" />
               <StartSeconds>1</StartSeconds>
               <Latitude>37.0243490</Latitude>
               <Longitude>-76.3484010</Longitude>
@@ -1351,9 +1368,9 @@
           </Track>
           <StartSeconds>0</StartSeconds>
           <Time>324</Time>
-          <Distance>1008.21850157136180</Distance>
+          <Distance>1016.13479934140046</Distance>
           <Calories xsi:nil="true" />
-          <HeartRateAvg>139</HeartRateAvg>
+          <HeartRateAvg>138</HeartRateAvg>
           <HeartRateMax>151</HeartRateMax>
           <RPMAvg xsi:nil="true" />
           <RPMMax xsi:nil="true" />
